@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 
@@ -28,6 +29,17 @@ SCENE_REQUIRED = [
 ]
 
 REVIEW_REQUIRED = ["通过项", "风险项", "结论"]
+
+
+def safe_print(message: str) -> None:
+    try:
+        print(message)
+    except UnicodeEncodeError:
+        buffer = getattr(sys.stdout, "buffer", None)
+        if buffer is not None:
+            buffer.write((message + "\n").encode("utf-8", errors="replace"))
+        else:
+            print(message.encode("ascii", errors="backslashreplace").decode("ascii"))
 
 
 def collect_markdown_files(path: Path) -> list[Path]:
@@ -140,8 +152,8 @@ def main() -> int:
         lines.append("- 视觉锚点包结构完整，可以进入下一轮深化或出图准备。")
 
     output.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"{status}: visual anchor bundle inspection completed.")
-    print(f"Report: {output}")
+    safe_print(f"{status}: visual anchor bundle inspection completed.")
+    safe_print(f"Report: {output}")
     return 0 if not issues else 1
 
 

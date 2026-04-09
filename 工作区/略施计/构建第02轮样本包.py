@@ -6,7 +6,7 @@ from textwrap import dedent
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "outputs" / "projects" / "lueshiji" / "iter-02"
+OUT = ROOT / "outputs" / "projects" / "lueshiji" / "第02轮"
 
 
 def ensure(path: Path) -> None:
@@ -920,7 +920,7 @@ def main() -> None:
 
         ## 结论
 
-        这轮比 iter-01 更像漫画样章，可以继续往下推，但还不算最终定稿。
+        这轮比 第01轮 更像漫画样章，可以继续往下推，但还不算最终定稿。
 
         ## 已经补强
 

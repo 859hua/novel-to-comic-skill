@@ -6,7 +6,7 @@ from textwrap import dedent
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "outputs" / "projects" / "lueshiji" / "iter-01"
+OUT = ROOT / "outputs" / "projects" / "lueshiji" / "第01轮"
 
 
 SERIAL_PLAN = {

@@ -1,9 +1,9 @@
 ---
 name: adapt-webnovel-to-comic
-description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or prose treatment into a serialized digital-comic package. Use when Codex needs to turn a novel into a comic workflow and deliverables such as source diagnosis, comic bibles, serialization planning, sample chapter drafts, detailed longform adaptation, page-layout scripts, panel scripts, and visual-consistency assets for either vertical webtoon or page-based comic production.
+description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment 改编为连载漫画生产包，适用于条漫或页漫的原作诊断、圣经、连载规划、样章长稿、完整详细长稿、分页脚本、分格脚本与视觉一致性资产输出。
 ---
 
-# Adapt Webnovel To Comic
+# 网文改编漫画技能
 
 ## Overview
 
@@ -30,13 +30,13 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 ### 1. Gather and normalize source material
 
 - If the source is TXT, work directly from it.
-- If the source is PDF/DOCX/EPUB/TXT, use `scripts/extract_local_sources.py` to normalize it.
-- If the user did not specify a novel, use `scripts/find_candidate_novels.py`.
-- Always split the novel with `scripts/split_novel_into_chapters.py` before planning.
+- If the source is PDF/DOCX/EPUB/TXT, use `scripts/提取本地素材.py` to normalize it.
+- If the user did not specify a novel, use `scripts/查找候选小说.py`.
+- Always split the novel with `scripts/拆分小说章节.py` before planning.
 
 ### 2. Lock the planning logic before writing anything
 
-- Read [theory-selection-map-comic.md](references/theory-selection-map-comic.md).
+- Read [理论筛选地图.md](references/理论筛选地图.md).
 - Decide:
   - what can be reused from prior longform-adaptation workflows
   - what must be rewritten into comic grammar
@@ -45,7 +45,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 3. Lock the comic format before writing anything
 
-- Read [method-core-comic.md](references/method-core-comic.md).
+- Read [漫画改编核心方法.md](references/漫画改编核心方法.md).
 - Decide:
   - `vertical-webtoon` or `paged-comic`
   - color or black-and-white
@@ -70,14 +70,14 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 5. Build the planning package
 
-- Read [output-contract-comic.md](references/output-contract-comic.md).
+- Read [输出合同.md](references/输出合同.md).
 - Create:
   - `漫画总圣经.md`
   - `人物设定圣经.md`
   - `场景道具圣经.md`
   - `连载规划.json`
   - `连续性账本.md`
-- Use `scripts/bootstrap_serial_plan.py` to scaffold `连载规划.json`, then fill it.
+- Use `scripts/生成连载规划.py` to scaffold `连载规划.json`, then fill it.
 
 ### 6. Write sample chapters first
 
@@ -95,7 +95,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 7. Run a dedicated dialogue and lettering pass
 
-- Read [dialogue-lettering-pass.md](references/dialogue-lettering-pass.md).
+- Read [对白字气打磨流程.md](references/对白字气打磨流程.md).
 - Create `对白打磨记录.md`.
 - Check:
   - key lines still map to actions
@@ -106,7 +106,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 8. Evaluate before expanding
 
-- Run `scripts/evaluate_comic_package.py` on `连载规划.json`.
+- Run `scripts/评估漫画改编包.py` on `连载规划.json`.
 - Create `评估复盘.md`.
 - If the plan or sample batch fails:
   - fix structure first
@@ -115,7 +115,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 9. Run a method-usage audit
 
-- Read [method-usage-audit-comic.md](references/method-usage-audit-comic.md).
+- Read [技法使用审计流程.md](references/技法使用审计流程.md).
 - Create `技法使用审计.md`.
 - Audit:
   - which source-book methods were truly used
@@ -126,7 +126,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 10. Run a theory-grounded review
 
-- Read [theory-grounded-review-pass-comic.md](references/theory-grounded-review-pass-comic.md).
+- Read [理论依据评议流程.md](references/理论依据评议流程.md).
 - Create `理论依据评议.md`.
 - Every praise or criticism must name:
   - the concrete evidence
@@ -135,7 +135,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 11. Run a hostile-audience pass
 
-- Read [hostile-audience-pass-comic.md](references/hostile-audience-pass-comic.md).
+- Read [仇人视角审读流程.md](references/仇人视角审读流程.md).
 - Create:
   - `仇人式负评.md`
   - `编辑导演修订建议.md`
@@ -144,7 +144,7 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 12. Go back to the novel and harvest source scenes
 
-- Read [source-scene-harvest-pass-comic.md](references/source-scene-harvest-pass-comic.md).
+- Read [源场景采收流程.md](references/源场景采收流程.md).
 - Create `源场景采收卡.md`.
 - Harvest:
   - vivid actions
@@ -165,14 +165,14 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 14. Run a longform naturalization pass
 
-- Read [longform-naturalization-pass-comic.md](references/longform-naturalization-pass-comic.md).
-- Run `scripts/inspect_comic_longform_naturalization.py`.
+- Read [长稿自然化检查流程.md](references/长稿自然化检查流程.md).
+- Run `scripts/检查长稿自然化.py`.
 - Create `长稿自然化检查.md`.
 - If the longform still sounds like planning notes, prompt scaffolding, or film blocking notes, the page stage is blocked.
 
 ### 15. Derive page layout and panel scripts only from validated longform
 
-- Read [page-layout-spec.md](references/page-layout-spec.md).
+- Read [分页分格规范.md](references/分页分格规范.md).
 - Create:
   - `页面叙事圣经.md`
   - `页面设计总表.json`
@@ -183,13 +183,13 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 
 ### 16. Run a visual-consistency pass
 
-- Read [visual-consistency-pass.md](references/visual-consistency-pass.md).
+- Read [视觉一致性检查流程.md](references/视觉一致性检查流程.md).
 - Create:
   - `角色定锚包/`
   - `场景定锚包/`
   - `出图提示包.json`
   - `视觉一致性检查.md`
-- Run `scripts/inspect_visual_anchor_bundle.py` on the completed bundle.
+- Run `scripts/检查视觉定锚包.py` on the completed bundle.
 - If character, costume, prop, or space anchors are unstable, do not move on.
 
 ### 17. Iterate
@@ -227,32 +227,40 @@ description: Adapt a long-form web novel, TXT/EPUB/DOCX/PDF fiction source, or p
 22. Character anchor bundles must record costume rotation, habitual action, and forbidden drift before any visual-generation package is considered complete.
 23. Visual consistency is not considered complete until the visual bundle passes an explicit inspection pass.
 
+## 继续扩容重点
+
+- 增加按题材拆分的子流程包，至少把都市言情、古风权谋、悬疑、热血升级和群像喜剧分开处理，而不是共用一套分页节奏。
+- 增加页面层自动审读，专门检查字量过载、静默节拍不足、翻页点疲软和重复构图。
+- 增加角色表情、肢体动作、字效和拟声词的专门词典，让“对白打磨”进一步延伸到“阅读声场打磨”。
+- 增加前 50 章样段和全文规划之间的长线伏笔校验，避免前段样章成立、后段总线塌陷。
+- 增加面向出图和上色阶段的版本回归检查，专门抓服装漂移、场景标志物丢失和镜头语言同质化。
+
 ## What To Read
 
 Read in this order:
 
-1. [theory-selection-map-comic.md](references/theory-selection-map-comic.md)
-2. [method-core-comic.md](references/method-core-comic.md)
-3. [github-benchmark-judgment-comic.md](references/github-benchmark-judgment-comic.md)
-4. [output-contract-comic.md](references/output-contract-comic.md)
-5. [dialogue-lettering-pass.md](references/dialogue-lettering-pass.md)
-6. [source-scene-harvest-pass-comic.md](references/source-scene-harvest-pass-comic.md)
-7. [page-layout-spec.md](references/page-layout-spec.md)
-8. [visual-consistency-pass.md](references/visual-consistency-pass.md)
-9. [method-usage-audit-comic.md](references/method-usage-audit-comic.md)
-10. [theory-grounded-review-pass-comic.md](references/theory-grounded-review-pass-comic.md)
-11. [hostile-audience-pass-comic.md](references/hostile-audience-pass-comic.md)
-12. [longform-naturalization-pass-comic.md](references/longform-naturalization-pass-comic.md)
+1. [理论筛选地图.md](references/理论筛选地图.md)
+2. [漫画改编核心方法.md](references/漫画改编核心方法.md)
+3. [高星仓库参考判断.md](references/高星仓库参考判断.md)
+4. [输出合同.md](references/输出合同.md)
+5. [对白字气打磨流程.md](references/对白字气打磨流程.md)
+6. [源场景采收流程.md](references/源场景采收流程.md)
+7. [分页分格规范.md](references/分页分格规范.md)
+8. [视觉一致性检查流程.md](references/视觉一致性检查流程.md)
+9. [技法使用审计流程.md](references/技法使用审计流程.md)
+10. [理论依据评议流程.md](references/理论依据评议流程.md)
+11. [仇人视角审读流程.md](references/仇人视角审读流程.md)
+12. [长稿自然化检查流程.md](references/长稿自然化检查流程.md)
 
 ## Script Inventory
 
-- `scripts/extract_local_sources.py`
-- `scripts/find_candidate_novels.py`
-- `scripts/split_novel_into_chapters.py`
-- `scripts/bootstrap_serial_plan.py`
-- `scripts/evaluate_comic_package.py`
-- `scripts/inspect_comic_longform_naturalization.py`
-- `scripts/inspect_visual_anchor_bundle.py`
+- `scripts/提取本地素材.py`
+- `scripts/查找候选小说.py`
+- `scripts/拆分小说章节.py`
+- `scripts/生成连载规划.py`
+- `scripts/评估漫画改编包.py`
+- `scripts/检查长稿自然化.py`
+- `scripts/检查视觉定锚包.py`
 
 ## Default Deliverable Order
 

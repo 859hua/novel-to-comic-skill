@@ -6,8 +6,8 @@ from textwrap import dedent
 
 
 ROOT = Path(__file__).resolve().parents[2]
-SRC = ROOT / "outputs" / "projects" / "lueshiji" / "iter-02"
-OUT = ROOT / "outputs" / "projects" / "lueshiji" / "iter-03"
+SRC = ROOT / "outputs" / "projects" / "lueshiji" / "第02轮"
+OUT = ROOT / "outputs" / "projects" / "lueshiji" / "第03轮"
 
 
 def write_text(path: Path, content: str) -> None:
