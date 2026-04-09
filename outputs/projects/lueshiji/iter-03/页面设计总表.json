@@ -1,0 +1,15 @@
+{
+  "title": "略施计 前十话页面设计总表",
+  "chapters": [
+    {"chapter": 1, "pages": 20, "silent_pages": ["p8"], "major_turns": ["p5", "p11", "p18"], "visual_payoff": "湖心亭见父"},
+    {"chapter": 2, "pages": 20, "silent_pages": ["p11-p12"], "major_turns": ["p4", "p10", "p16"], "visual_payoff": "点心落湖"},
+    {"chapter": 3, "pages": 20, "silent_pages": ["p12-p13"], "major_turns": ["p6", "p11", "p18"], "visual_payoff": "抓袖口"},
+    {"chapter": 4, "pages": 20, "silent_pages": [], "major_turns": ["p5", "p12", "p18"], "visual_payoff": "新衣与旧伤"},
+    {"chapter": 5, "pages": 20, "silent_pages": [], "major_turns": ["p7", "p13", "p18"], "visual_payoff": "双女儿初见"},
+    {"chapter": 6, "pages": 20, "silent_pages": [], "major_turns": ["p5", "p12", "p19"], "visual_payoff": "长桌站位"},
+    {"chapter": 7, "pages": 20, "silent_pages": [], "major_turns": ["p6", "p13", "p18"], "visual_payoff": "暗处观打"},
+    {"chapter": 8, "pages": 20, "silent_pages": [], "major_turns": ["p4", "p10", "p17"], "visual_payoff": "药与狗同框"},
+    {"chapter": 9, "pages": 20, "silent_pages": [], "major_turns": ["p5", "p11", "p18"], "visual_payoff": "被盯上的孩子"},
+    {"chapter": 10, "pages": 20, "silent_pages": [], "major_turns": ["p5", "p12", "p19"], "visual_payoff": "公开站位"}
+  ]
+}

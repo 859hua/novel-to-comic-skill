@@ -1,0 +1,885 @@
+{
+  "title": "略施计",
+  "format": "serialized-comic",
+  "format_route": "paged-comic",
+  "total_chapters": 30,
+  "default_target_pages": 20,
+  "adaptation_premise": "一个被虐待的五岁女孩靠狗洞逃命、误闯疯父纪霆舟的湖心亭后，开始一点点夺回“被承认的资格”，并把原本注定继续腐烂的纪家改造成真正的家。",
+  "series_engine": "黑色幽默父女修复 + 镜像双女儿关系 + 豪门旧案与药剂线外压",
+  "audience_promise": "每一话都给出孩子视角的危险、荒诞和情感推进，并持续兑现父女关系改写与双女儿并肩成长的奖励。",
+  "arcs": [
+    {
+      "arc": 1,
+      "name": "Arc 1 - 狗洞与湖心亭",
+      "chapter_start": 1,
+      "chapter_end": 5,
+      "goal": "让纪念活下来并闯进纪霆舟视野",
+      "promise": "危险、黑色幽默、错认父亲",
+      "major_turn": "沈清棠即将入府"
+    },
+    {
+      "arc": 2,
+      "name": "Arc 2 - 两个女儿",
+      "chapter_start": 6,
+      "chapter_end": 10,
+      "goal": "让新妹妹入局，建立纪家的双女儿格局",
+      "promise": "餐桌张力、旧伤暴露、位置争夺",
+      "major_turn": "纪念先活住再抢回资格"
+    },
+    {
+      "arc": 3,
+      "name": "Arc 3 - 守密与试探",
+      "chapter_start": 11,
+      "chapter_end": 15,
+      "goal": "把家住热，把药线和陈默线种下去",
+      "promise": "结盟、守密、成人威胁逼近",
+      "major_turn": "陈默不再只是远处的危险"
+    },
+    {
+      "arc": 4,
+      "name": "Arc 4 - 学校与流言",
+      "chapter_start": 16,
+      "chapter_end": 20,
+      "goal": "把家庭冲突外翻到学校和公众空间",
+      "promise": "外部舆论、身份冲突、公开护女",
+      "major_turn": "纪霆舟开始公开选边"
+    },
+    {
+      "arc": 5,
+      "name": "Arc 5 - 旧案翻面",
+      "chapter_start": 21,
+      "chapter_end": 25,
+      "goal": "把陈默、药剂、身世、旧账真正并线",
+      "promise": "真相、站队、亲缘回收",
+      "major_turn": "所有成人都被逼到表态"
+    },
+    {
+      "arc": 6,
+      "name": "Arc 6 - 正门回环",
+      "chapter_start": 26,
+      "chapter_end": 30,
+      "goal": "把返村、长辈、旧照、烟花与全家站队收口",
+      "promise": "情感兑现、家庭成型、首尾回环",
+      "major_turn": "从狗洞逃命走到正门回家"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "arc": 1,
+      "title": "狗洞",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "开篇",
+        "第1章",
+        "第2章"
+      ],
+      "core_goal": "让纪念从被追打到闯出旧院",
+      "chapter_reward": "读者迅速认下纪念这张脸和这股野劲",
+      "opening_hook": "被鞭子追着跑的小女孩和脑内系统同时开口",
+      "page_turns": [
+        "p5-狗洞位置暴露",
+        "p11-湖心亭里坐着的男人",
+        "p17-哥哥你真好看"
+      ],
+      "ending_hook": "点心被扔进湖里，纪念终于意识到这个漂亮哥哥不是善茬",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "狗洞、鞭子、湖心亭逆光",
+      "anchor_prop": "落湖点心",
+      "notes": "整话必须以孩子视角压低成人的威压"
+    },
+    {
+      "chapter": 2,
+      "arc": 1,
+      "title": "点心落湖",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第2章",
+        "第3章",
+        "第4章"
+      ],
+      "core_goal": "把纪霆舟的危险和纪念的厚脸皮锁住",
+      "chapter_reward": "父女第一次真正对话并建立荒诞关系",
+      "opening_hook": "纪念求吃的，纪霆舟故意把点心扔进湖里",
+      "page_turns": [
+        "p4-系统提醒这人就是渣爹",
+        "p10-纪霆舟第一次正眼看她",
+        "p16-纪念赖着不走"
+      ],
+      "ending_hook": "纪霆舟把她带回自己的生活区域",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "湖面、逆光、孩子仰头",
+      "anchor_prop": "糕点盘",
+      "notes": "把危险和喜感同时成立"
+    },
+    {
+      "chapter": 3,
+      "arc": 1,
+      "title": "发烧夜",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第11章",
+        "第12章",
+        "第13章"
+      ],
+      "core_goal": "让纪霆舟第一次在照料与厌恶间失守",
+      "chapter_reward": "父女关系从观察转向身体上的接近",
+      "opening_hook": "纪念发烧后死抓纪霆舟衣角不放",
+      "page_turns": [
+        "p6-纪霆舟差点把孩子丢出去",
+        "p11-小孩梦中找爹",
+        "p18-他还是把人抱稳了"
+      ],
+      "ending_hook": "纪霆舟意识到自己正在记住她的名字",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "冷色房间、发红眼尾、抓袖子的手",
+      "anchor_prop": "药和退烧毛巾",
+      "notes": "这一话需要明显的静与慢"
+    },
+    {
+      "chapter": 4,
+      "arc": 1,
+      "title": "新衣服和旧伤",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第14章",
+        "第15章",
+        "第16章"
+      ],
+      "core_goal": "让纪念从旧院余孽转向被看见的孩子",
+      "chapter_reward": "外形变化带来位置变化",
+      "opening_hook": "纪念被量尺寸、被换上新衣服",
+      "page_turns": [
+        "p5-旧伤痕露出来",
+        "p12-纪霆舟沉默看着",
+        "p18-纪念主动试探新规则"
+      ],
+      "ending_hook": "家里的人开始重新给纪念定位",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "知了"
+      ],
+      "visual_motif": "软尺、卷发、新旧衣服对比",
+      "anchor_prop": "量衣软尺",
+      "notes": "把身体痕迹和生活升级并置"
+    },
+    {
+      "chapter": 5,
+      "arc": 1,
+      "title": "新妹妹进门",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第17章",
+        "第18章",
+        "第19章",
+        "第20章"
+      ],
+      "core_goal": "让沈清棠入局并打破原书预设",
+      "chapter_reward": "读者看到双女儿关系不是低配宫斗",
+      "opening_hook": "系统提醒原书里女主进门后原主会更惨",
+      "page_turns": [
+        "p7-沈清棠真正出现",
+        "p13-纪念没有按原书出招",
+        "p18-餐桌站位第一次改变"
+      ],
+      "ending_hook": "纪家正式变成三方拉扯场",
+      "focus_characters": [
+        "纪念",
+        "沈清棠",
+        "纪霆舟"
+      ],
+      "visual_motif": "门厅、长桌、两个孩子的视线",
+      "anchor_prop": "书包和糖纸",
+      "notes": "两女儿初见要更复杂，不要工具化"
+    },
+    {
+      "chapter": 6,
+      "arc": 2,
+      "title": "灵堂长桌",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第21章",
+        "第22章",
+        "第23章",
+        "第24章"
+      ],
+      "core_goal": "把纪家的家庭气压变成具体桌面戏",
+      "chapter_reward": "纪霆舟第一次有了偏向纪念的身体动作",
+      "opening_hook": "一顿饭吃得像审判",
+      "page_turns": [
+        "p5-魏杨记起旧日恩情",
+        "p12-纪霆舟下意识先护纪念",
+        "p19-沈清棠也看懂了变化"
+      ],
+      "ending_hook": "家里开始有人不安地意识到纪念不会再回旧院",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "沈清棠",
+        "魏杨"
+      ],
+      "visual_motif": "长桌、筷子、视线交锋",
+      "anchor_prop": "饭碗",
+      "notes": "家庭关系要靠动作，不靠说教"
+    },
+    {
+      "chapter": 7,
+      "arc": 2,
+      "title": "旧伤不会自己好",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第25章",
+        "第26章",
+        "第27章",
+        "第28章",
+        "第29章"
+      ],
+      "core_goal": "把虐待后遗症拉回台面",
+      "chapter_reward": "纪念的求生聪明第一次带来反击",
+      "opening_hook": "纪念蹲在暗处看别人被抓",
+      "page_turns": [
+        "p6-她发现危险还在家里",
+        "p13-纪霆舟察觉异常",
+        "p18-孩子没有像原书那样自毁"
+      ],
+      "ending_hook": "纪家里有人开始真正怕这个小孩活下来",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "旧院人"
+      ],
+      "visual_motif": "暗处、抓痕、门缝",
+      "anchor_prop": "药盒",
+      "notes": "恐惧感要落到空间里"
+    },
+    {
+      "chapter": 8,
+      "arc": 2,
+      "title": "狗、药和睡眠债",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第30章",
+        "第31章",
+        "第32章",
+        "第33章",
+        "第34章"
+      ],
+      "core_goal": "把家住热，同时埋药剂线",
+      "chapter_reward": "生活温度和危险线第一次同框",
+      "opening_hook": "纪霆舟明明困得要死，却还是先看纪念",
+      "page_turns": [
+        "p4-狗先认了纪念",
+        "p10-纪念用前世知识试药",
+        "p17-知了看见不该看见的东西"
+      ],
+      "ending_hook": "药线被一个大人模糊地闻到了",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "知了",
+        "大蛋"
+      ],
+      "visual_motif": "狗毛、药纸、困倦父亲",
+      "anchor_prop": "药包",
+      "notes": "温度不能盖掉危机"
+    },
+    {
+      "chapter": 9,
+      "arc": 2,
+      "title": "谁在盯这个孩子",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第35章",
+        "第36章",
+        "第37章",
+        "第38章",
+        "第39章"
+      ],
+      "core_goal": "把外部视线真正引入庄园",
+      "chapter_reward": "读者明确知道危险不只来自家里",
+      "opening_hook": "纪念觉得有人在盯自己",
+      "page_turns": [
+        "p5-纪霆舟先一步察觉",
+        "p11-沈清棠不再只是被动旁观",
+        "p18-陈默这条线第一次有具体形"
+      ],
+      "ending_hook": "有人决定查纪念",
+      "focus_characters": [
+        "纪念",
+        "沈清棠",
+        "纪霆舟",
+        "陈默"
+      ],
+      "visual_motif": "窗、影子、病色",
+      "anchor_prop": "旧照片",
+      "notes": "陈默初登场要兼具病感和锋利"
+    },
+    {
+      "chapter": 10,
+      "arc": 2,
+      "title": "先把这口气活下来",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第40章",
+        "第41章",
+        "第42章",
+        "第43章",
+        "第44章",
+        "第45章",
+        "第46章",
+        "第47章",
+        "第48章",
+        "第49章",
+        "第50章"
+      ],
+      "core_goal": "给前 50 章一个阶段收束",
+      "chapter_reward": "纪念先在纪家真正站住脚",
+      "opening_hook": "纪念第一次明白自己不是只争一顿饭",
+      "page_turns": [
+        "p5-她开始主动抢规则",
+        "p12-纪霆舟在公开场合偏向她",
+        "p19-沈清棠选择站在她这边"
+      ],
+      "ending_hook": "阶段性站稳，但更大的外压也被招来了",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "沈清棠"
+      ],
+      "visual_motif": "门口站位、孩子抬眼、被改写的规矩",
+      "anchor_prop": "门禁与药纸",
+      "notes": "前 50 章的具体改编以这一话收束"
+    },
+    {
+      "chapter": 11,
+      "arc": 3,
+      "title": "家里开始偏心",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第51章-第56章"
+      ],
+      "core_goal": "把家庭秩序变化做实",
+      "chapter_reward": "纪霆舟的偏爱第一次形成公共事实",
+      "opening_hook": "一个原本没人会替纪念做的小动作被人做了",
+      "page_turns": [
+        "p8",
+        "p14"
+      ],
+      "ending_hook": "有人开始真正恨她",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "沈清棠"
+      ],
+      "visual_motif": "夹菜、挡门、抱起",
+      "anchor_prop": "儿童药",
+      "notes": ""
+    },
+    {
+      "chapter": 12,
+      "arc": 3,
+      "title": "两个女儿第一次结盟",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第57章-第62章"
+      ],
+      "core_goal": "让双女儿关系从互看走向并肩",
+      "chapter_reward": "读者看到沈清棠不是工具对手",
+      "opening_hook": "沈清棠第一次替纪念遮一下",
+      "page_turns": [
+        "p7",
+        "p15"
+      ],
+      "ending_hook": "她们有了共同秘密",
+      "focus_characters": [
+        "纪念",
+        "沈清棠"
+      ],
+      "visual_motif": "两个孩子并肩",
+      "anchor_prop": "糖纸",
+      "notes": ""
+    },
+    {
+      "chapter": 13,
+      "arc": 3,
+      "title": "魏杨和知了的站队",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第63章-第68章"
+      ],
+      "core_goal": "把家庭支柱的立场写清",
+      "chapter_reward": "家的温度变得可靠",
+      "opening_hook": "大人们第一次不再隔岸看纪念",
+      "page_turns": [
+        "p6",
+        "p14"
+      ],
+      "ending_hook": "纪念的影响力超出她自己想象",
+      "focus_characters": [
+        "魏杨",
+        "知了",
+        "纪念"
+      ],
+      "visual_motif": "围裙、文件夹、夜灯",
+      "anchor_prop": "毛毯",
+      "notes": ""
+    },
+    {
+      "chapter": 14,
+      "arc": 3,
+      "title": "药方和秘密交换",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第69章-第74章"
+      ],
+      "core_goal": "让药线转为主动戏",
+      "chapter_reward": "纪念的能力开始真正改变局面",
+      "opening_hook": "一张药方引出两种动机",
+      "page_turns": [
+        "p5",
+        "p13"
+      ],
+      "ending_hook": "秘密开始有成本",
+      "focus_characters": [
+        "纪念",
+        "知了",
+        "纪霆舟"
+      ],
+      "visual_motif": "药纸、灯下手影",
+      "anchor_prop": "药方",
+      "notes": ""
+    },
+    {
+      "chapter": 15,
+      "arc": 3,
+      "title": "陈默第一次咬上来",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第75章-第80章"
+      ],
+      "core_goal": "让陈默线正式进主引擎",
+      "chapter_reward": "危险终于有脸",
+      "opening_hook": "病床上的人忽然精准说中纪念的异常",
+      "page_turns": [
+        "p7",
+        "p16"
+      ],
+      "ending_hook": "陈默决定继续查",
+      "focus_characters": [
+        "陈默",
+        "纪念"
+      ],
+      "visual_motif": "白床单、冷眼、血点",
+      "anchor_prop": "礼盒",
+      "notes": ""
+    },
+    {
+      "chapter": 16,
+      "arc": 4,
+      "title": "规则被孩子改写",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第81章-第86章"
+      ],
+      "core_goal": "进入学校前先改写家庭规则",
+      "chapter_reward": "纪念从被适应的人变成定义规则的人",
+      "opening_hook": "一条原本专门折磨孩子的规矩被她反拿来用",
+      "page_turns": [
+        "p8",
+        "p14"
+      ],
+      "ending_hook": "外部世界要来了",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "台阶、门框、坐席",
+      "anchor_prop": "门禁卡",
+      "notes": ""
+    },
+    {
+      "chapter": 17,
+      "arc": 4,
+      "title": "学校门口的第一仗",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第87章-第92章"
+      ],
+      "core_goal": "让家庭冲突外翻到学校",
+      "chapter_reward": "主角在公共空间也不再后退",
+      "opening_hook": "第一次站到校门口，纪念就被人盯上",
+      "page_turns": [
+        "p6",
+        "p15"
+      ],
+      "ending_hook": "她得学会在别人的规矩里反击",
+      "focus_characters": [
+        "纪念",
+        "沈清棠"
+      ],
+      "visual_motif": "校门、徽章、台阶",
+      "anchor_prop": "书包",
+      "notes": ""
+    },
+    {
+      "chapter": 18,
+      "arc": 4,
+      "title": "谣言是另一种鞭子",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第93章-第98章"
+      ],
+      "core_goal": "让舆论变成具体外压",
+      "chapter_reward": "孩子第一次学会用别人的话反打别人",
+      "opening_hook": "流言比鞭子更快",
+      "page_turns": [
+        "p7",
+        "p13"
+      ],
+      "ending_hook": "纪霆舟知道后不会再装看不见",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "纸条、走廊、围观圈",
+      "anchor_prop": "传纸",
+      "notes": ""
+    },
+    {
+      "chapter": 19,
+      "arc": 4,
+      "title": "旧案影子回庄园",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第99章-第104章"
+      ],
+      "core_goal": "把外部案件感带回家",
+      "chapter_reward": "庄园不再只是家，也是现场",
+      "opening_hook": "一张旧照把时间撕开",
+      "page_turns": [
+        "p6",
+        "p14"
+      ],
+      "ending_hook": "过去的人要回来算账",
+      "focus_characters": [
+        "陈默",
+        "纪霆舟"
+      ],
+      "visual_motif": "旧照、档案袋、暗走廊",
+      "anchor_prop": "照片",
+      "notes": ""
+    },
+    {
+      "chapter": 20,
+      "arc": 4,
+      "title": "纪霆舟第一次公开护女",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第105章-第110章"
+      ],
+      "core_goal": "让纪霆舟从私下护持转为公开站队",
+      "chapter_reward": "观众拿到最爽的关系奖励",
+      "opening_hook": "他在人前挡到纪念前面",
+      "page_turns": [
+        "p8",
+        "p16"
+      ],
+      "ending_hook": "再也不能回到‘假装不认’那一格",
+      "focus_characters": [
+        "纪霆舟",
+        "纪念"
+      ],
+      "visual_motif": "挡住视线的背影",
+      "anchor_prop": "外套",
+      "notes": ""
+    },
+    {
+      "chapter": 21,
+      "arc": 5,
+      "title": "亲缘和收养都要算账",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第111章-第118章"
+      ],
+      "core_goal": "把亲女/养女的价值冲突复杂化",
+      "chapter_reward": "谁是家人不再靠血统一句话定夺",
+      "opening_hook": "一句‘亲生的’并没解决问题",
+      "page_turns": [
+        "p7",
+        "p14"
+      ],
+      "ending_hook": "两种亲缘都要被重新定义",
+      "focus_characters": [
+        "纪念",
+        "沈清棠",
+        "纪霆舟"
+      ],
+      "visual_motif": "两个孩子一左一右",
+      "anchor_prop": "合照框",
+      "notes": ""
+    },
+    {
+      "chapter": 22,
+      "arc": 5,
+      "title": "陈默不是单纯敌人",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第119章-第126章"
+      ],
+      "core_goal": "把陈默从敌人推进到复杂亲属",
+      "chapter_reward": "旧案线有了情感厚度",
+      "opening_hook": "陈默做了一件不像敌人的事",
+      "page_turns": [
+        "p5",
+        "p15"
+      ],
+      "ending_hook": "他必须选边",
+      "focus_characters": [
+        "陈默",
+        "纪念"
+      ],
+      "visual_motif": "停在门口的人",
+      "anchor_prop": "病历夹",
+      "notes": ""
+    },
+    {
+      "chapter": 23,
+      "arc": 5,
+      "title": "两个女儿一起撒网",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第127章-第134章"
+      ],
+      "core_goal": "让双女儿主动出手",
+      "chapter_reward": "双女主真正成立",
+      "opening_hook": "沈清棠和纪念决定一起钓人",
+      "page_turns": [
+        "p8",
+        "p14"
+      ],
+      "ending_hook": "对手开始低估两个孩子",
+      "focus_characters": [
+        "纪念",
+        "沈清棠"
+      ],
+      "visual_motif": "并肩的背影",
+      "anchor_prop": "纸条和小礼物",
+      "notes": ""
+    },
+    {
+      "chapter": 24,
+      "arc": 5,
+      "title": "药剂线彻底翻面",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第135章-第142章"
+      ],
+      "core_goal": "把药剂线从影子线变成正面战场",
+      "chapter_reward": "之前所有药纸都开始回收",
+      "opening_hook": "一包药让旧伤全开",
+      "page_turns": [
+        "p7",
+        "p15"
+      ],
+      "ending_hook": "再不公开就晚了",
+      "focus_characters": [
+        "纪念",
+        "陈默",
+        "纪霆舟"
+      ],
+      "visual_motif": "药纸、玻璃杯、冷灯",
+      "anchor_prop": "药瓶",
+      "notes": ""
+    },
+    {
+      "chapter": 25,
+      "arc": 5,
+      "title": "该选边的人都得选边",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第143章-第150章"
+      ],
+      "core_goal": "把所有大人逼到站队",
+      "chapter_reward": "家庭与旧案真正并轨",
+      "opening_hook": "孩子已经没有躲的位置",
+      "page_turns": [
+        "p6",
+        "p16"
+      ],
+      "ending_hook": "纪家要去面对外面的长辈与村路了",
+      "focus_characters": [
+        "纪霆舟",
+        "陈默",
+        "知了",
+        "魏杨"
+      ],
+      "visual_motif": "门口集合",
+      "anchor_prop": "车钥匙",
+      "notes": ""
+    },
+    {
+      "chapter": 26,
+      "arc": 6,
+      "title": "家不是遗产是站队",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第151章-第158章"
+      ],
+      "core_goal": "给终局前的价值判断定调",
+      "chapter_reward": "家这个词第一次不是虚词",
+      "opening_hook": "有人把‘家’当财产，有人把它当人",
+      "page_turns": [
+        "p7",
+        "p14"
+      ],
+      "ending_hook": "返村路开始",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "门、钥匙、背影",
+      "anchor_prop": "旧钥匙",
+      "notes": ""
+    },
+    {
+      "chapter": 27,
+      "arc": 6,
+      "title": "返村之前先过心关",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第159章-第166章"
+      ],
+      "core_goal": "让终局不是单纯办事，而是先过情关",
+      "chapter_reward": "纪霆舟终于学会面对活人",
+      "opening_hook": "返村这件事把所有旧伤都翻出来了",
+      "page_turns": [
+        "p8",
+        "p15"
+      ],
+      "ending_hook": "车开出去就不能回头装没发生过",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "沈清棠"
+      ],
+      "visual_motif": "车窗、夜路、沉默",
+      "anchor_prop": "旧玩具",
+      "notes": ""
+    },
+    {
+      "chapter": 28,
+      "arc": 6,
+      "title": "外公外婆与旧照片",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第167章-第174章"
+      ],
+      "core_goal": "让村路和长辈完成情感回收",
+      "chapter_reward": "纪念终于接到祖辈的情感",
+      "opening_hook": "一张旧照片比任何解释都重",
+      "page_turns": [
+        "p5",
+        "p13"
+      ],
+      "ending_hook": "所有关系开始朝合照站位移动",
+      "focus_characters": [
+        "纪念",
+        "外公外婆",
+        "纪霆舟"
+      ],
+      "visual_motif": "老屋、鸡、旧照片",
+      "anchor_prop": "合照",
+      "notes": ""
+    },
+    {
+      "chapter": 29,
+      "arc": 6,
+      "title": "正门回环",
+      "target_pages": 20,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第175章-第180章"
+      ],
+      "core_goal": "把狗洞和正门做成回环",
+      "chapter_reward": "首尾呼应带来最强的结构满足",
+      "opening_hook": "当年从狗洞逃出去的孩子，这次要从正门进",
+      "page_turns": [
+        "p8",
+        "p17"
+      ],
+      "ending_hook": "家终于轮到她来定义",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟"
+      ],
+      "visual_motif": "狗洞、正门",
+      "anchor_prop": "门锁",
+      "notes": ""
+    },
+    {
+      "chapter": 30,
+      "arc": 6,
+      "title": "烟花、合照、活着回家",
+      "target_pages": 22,
+      "format_route": "paged-comic",
+      "source_chapters": [
+        "第181章-第186章"
+      ],
+      "core_goal": "收回‘活下来’这条最初行动脊柱",
+      "chapter_reward": "荒诞和温情同时落地",
+      "opening_hook": "烟花夜前的一张全家合照位置还空着",
+      "page_turns": [
+        "p9",
+        "p18"
+      ],
+      "ending_hook": "终章不是句号，而是家真正开始的那一晚",
+      "focus_characters": [
+        "纪念",
+        "纪霆舟",
+        "沈清棠",
+        "陈默"
+      ],
+      "visual_motif": "烟花、全家合照、门前光",
+      "anchor_prop": "相机",
+      "notes": ""
+    }
+  ]
+}

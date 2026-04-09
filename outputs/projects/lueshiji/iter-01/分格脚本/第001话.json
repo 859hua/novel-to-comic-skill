@@ -1,0 +1,262 @@
+[
+  {
+    "page": 1,
+    "panel": 1,
+    "purpose": "纪念成年口吻开场，下一秒切到五岁身体",
+    "focal_point": "纪念",
+    "characters": [
+      "纪念"
+    ],
+    "action": "汇报台与旧院声音重叠",
+    "dialogue": "“你好，我叫纪念——”",
+    "balloon_note": "标题页兼人设炸点",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 1,
+    "panel": 2,
+    "purpose": "鞭子呼啸，直接打断开场",
+    "focal_point": "肥婆",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "鞭子甩进画面",
+    "dialogue": "",
+    "balloon_note": "用动作切穿文字",
+    "transition": "顺切"
+  },
+  {
+    "page": 2,
+    "panel": 1,
+    "purpose": "孩子视角看见冲来的成年人",
+    "focal_point": "肥婆的腿和鞭子",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "纪念回头",
+    "dialogue": "",
+    "balloon_note": "压迫感",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 2,
+    "panel": 2,
+    "purpose": "纪念吐槽不是玩Sm的",
+    "focal_point": "纪念",
+    "characters": [
+      "纪念"
+    ],
+    "action": "边跑边想",
+    "dialogue": "“那肯定不是玩Sm的。”",
+    "balloon_note": "黑色幽默",
+    "transition": "顺切"
+  },
+  {
+    "page": 3,
+    "panel": 1,
+    "purpose": "系统第一次出声",
+    "focal_point": "纪念的耳边空白",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她一愣",
+    "dialogue": "【右面。】",
+    "balloon_note": "气泡用异形框",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 3,
+    "panel": 2,
+    "purpose": "瘸腿椅子和狗洞同时入画",
+    "focal_point": "椅子后的洞",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "纪念急转",
+    "dialogue": "",
+    "balloon_note": "信息揭示",
+    "transition": "顺切"
+  },
+  {
+    "page": 4,
+    "panel": 1,
+    "purpose": "纪念钻洞，身体几乎贴地",
+    "focal_point": "孩子身体",
+    "characters": [
+      "纪念"
+    ],
+    "action": "爬、蹭、钻",
+    "dialogue": "",
+    "balloon_note": "动作格",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 4,
+    "panel": 2,
+    "purpose": "洞外草丛和洞内肥婆形成对比",
+    "focal_point": "狗洞出口",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "纪念滚出去",
+    "dialogue": "",
+    "balloon_note": "节奏松开",
+    "transition": "顺切"
+  },
+  {
+    "page": 5,
+    "panel": 1,
+    "purpose": "肥婆没抓住她",
+    "focal_point": "洞口被堵住的脸",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "肥婆趴洞口骂",
+    "dialogue": "",
+    "balloon_note": "翻页前压一下",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 5,
+    "panel": 2,
+    "purpose": "纪念瘫在树下喘",
+    "focal_point": "纪念的胸口",
+    "characters": [
+      "纪念"
+    ],
+    "action": "大喘气",
+    "dialogue": "“这到底怎么回事。”",
+    "balloon_note": "翻页后解释段前留白",
+    "transition": "顺切"
+  },
+  {
+    "page": 6,
+    "panel": 1,
+    "purpose": "系统讲原书设定",
+    "focal_point": "纪念和空白气泡",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她靠树听",
+    "dialogue": "【你穿书了。】",
+    "balloon_note": "设定要短",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 6,
+    "panel": 2,
+    "purpose": "纪念吐槽书名",
+    "focal_point": "纪念翻白眼",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她抠头发",
+    "dialogue": "“这文名一听就清水。”",
+    "balloon_note": "继续锁口气",
+    "transition": "顺切"
+  },
+  {
+    "page": 7,
+    "panel": 1,
+    "purpose": "她快饿昏，看到湖光",
+    "focal_point": "树缝光点",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "她眯眼",
+    "dialogue": "",
+    "balloon_note": "转场",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 7,
+    "panel": 2,
+    "purpose": "湖心亭远景",
+    "focal_point": "亭中一人一桌",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "纪念小小站在前景",
+    "dialogue": "",
+    "balloon_note": "建立场面",
+    "transition": "顺切"
+  },
+  {
+    "page": 8,
+    "panel": 1,
+    "purpose": "纪霆舟抬眼",
+    "focal_point": "眼睛和逆光脸",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "微抬下巴",
+    "dialogue": "",
+    "balloon_note": "首次正脸",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 8,
+    "panel": 2,
+    "purpose": "纪念看人也看点心",
+    "focal_point": "点心盘",
+    "characters": [
+      "纪念"
+    ],
+    "action": "吞口水",
+    "dialogue": "",
+    "balloon_note": "双焦点但以点心为主",
+    "transition": "顺切"
+  },
+  {
+    "page": 9,
+    "panel": 1,
+    "purpose": "她夸他好看",
+    "focal_point": "纪念",
+    "characters": [
+      "纪念"
+    ],
+    "action": "仰头",
+    "dialogue": "“哥哥，你真好看。”",
+    "balloon_note": "角色关系错位",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 9,
+    "panel": 2,
+    "purpose": "纪霆舟反问",
+    "focal_point": "纪霆舟",
+    "characters": [
+      "纪霆舟"
+    ],
+    "action": "垂眼",
+    "dialogue": "“哦？有多好看。”",
+    "balloon_note": "冷",
+    "transition": "顺切"
+  },
+  {
+    "page": 10,
+    "panel": 1,
+    "purpose": "纪念站直",
+    "focal_point": "纪念的小胸脯",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她认真组织措辞",
+    "dialogue": "",
+    "balloon_note": "笑点前蓄力",
+    "transition": "翻页/场切"
+  },
+  {
+    "page": 10,
+    "panel": 2,
+    "purpose": "她说出金句",
+    "focal_point": "纪念的嘴",
+    "characters": [
+      "纪念"
+    ],
+    "action": "一本正经",
+    "dialogue": "“好看到我爸见了都要下奶！”",
+    "balloon_note": "本话最大钩子",
+    "transition": "顺切"
+  }
+]

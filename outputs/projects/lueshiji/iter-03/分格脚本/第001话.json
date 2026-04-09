@@ -1,0 +1,162 @@
+[
+  {
+    "page": 1,
+    "panel": 1,
+    "purpose": "成年研究生口吻突兀塞进五岁身体，建立荒诞感",
+    "focal_point": "纪念举着小手却说出成年人口吻",
+    "characters": [
+      "纪念"
+    ],
+    "action": "纪念站在大厅中央，一本正经地开口，下一秒世界失控",
+    "dialogue": "“你好，我叫纪念，我的研究课题是……”",
+    "balloon_note": "第一格允许字稍多，但气泡不要盖住她的小身形",
+    "transition": "场切"
+  },
+  {
+    "page": 1,
+    "panel": 2,
+    "purpose": "从研究汇报骤切到旧院追打，形成世界翻面",
+    "focal_point": "鞭子从画外抽进画面",
+    "characters": [
+      "纪念",
+      "肥嬷嬷"
+    ],
+    "action": "鞭子擦着纪念脸边抽过去，她瞬间进入求生状态",
+    "dialogue": "“小杂种！给我站住！”",
+    "balloon_note": "骂声从画外压进来，增强惊吓感",
+    "transition": "硬切"
+  },
+  {
+    "page": 2,
+    "panel": 1,
+    "purpose": "把孩子高度下的庄园压迫感做出来",
+    "focal_point": "楼梯、成人腿和鞭子",
+    "characters": [
+      "纪念",
+      "肥嬷嬷"
+    ],
+    "action": "纪念边跑边回头，视野里只有晃动的腿、扶手和鞭子",
+    "dialogue": "",
+    "balloon_note": "少字格，让动作先成立",
+    "transition": "顺切"
+  },
+  {
+    "page": 2,
+    "panel": 2,
+    "purpose": "系统第一次发声，增加荒诞层",
+    "focal_point": "纪念骤停的表情",
+    "characters": [
+      "纪念"
+    ],
+    "action": "纪念边喘边愣住，脑子里突然听见声音",
+    "dialogue": "【右边，椅子后有狗洞。】",
+    "balloon_note": "系统字气与人物对白明显区分",
+    "transition": "顺切"
+  },
+  {
+    "page": 3,
+    "panel": 1,
+    "purpose": "狗洞信息揭示",
+    "focal_point": "瘸腿椅子后的窄洞",
+    "characters": [
+      "纪念"
+    ],
+    "action": "纪念扑过去，看到那个对孩子来说刚刚好的洞口",
+    "dialogue": "",
+    "balloon_note": "无对白，靠视觉瞬间理解",
+    "transition": "翻页前压重"
+  },
+  {
+    "page": 4,
+    "panel": 1,
+    "purpose": "把孩子身体尺度和洞口关系做成记忆点",
+    "focal_point": "纪念几乎贴地钻洞",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她蹭着地面、咬着牙往外钻，狼狈但精准",
+    "dialogue": "",
+    "balloon_note": "静默动作格",
+    "transition": "顺切"
+  },
+  {
+    "page": 5,
+    "panel": 1,
+    "purpose": "让肥嬷嬷卡在洞口外形成反差",
+    "focal_point": "洞外那张气急败坏的脸",
+    "characters": [
+      "肥嬷嬷"
+    ],
+    "action": "肥嬷嬷趴在洞口骂，进不来",
+    "dialogue": "“你跑得出院门，跑不出纪家！”",
+    "balloon_note": "字量控制短促，给追打留余味",
+    "transition": "顺切"
+  },
+  {
+    "page": 6,
+    "panel": 1,
+    "purpose": "孩子喘停后的设定最小解释",
+    "focal_point": "树下缩成一团的纪念",
+    "characters": [
+      "纪念"
+    ],
+    "action": "纪念靠在树根下，努力消化自己穿书的事实",
+    "dialogue": "【你现在是《略施计》里的纪念。】",
+    "balloon_note": "系统设定只给最小必要信息",
+    "transition": "顺切"
+  },
+  {
+    "page": 7,
+    "panel": 1,
+    "purpose": "把吐槽和求生并置，保住纪念声口",
+    "focal_point": "纪念翻白眼又拼命喘气",
+    "characters": [
+      "纪念"
+    ],
+    "action": "她边喘边骂原书文名和设定",
+    "dialogue": "“这文名，一听就清水。”",
+    "balloon_note": "这一句保留人物野劲，但不能再拖设定",
+    "transition": "顺切"
+  },
+  {
+    "page": 8,
+    "panel": 1,
+    "purpose": "用少字页把湖光和亭子拉出来",
+    "focal_point": "树缝漏下来的湖面亮光",
+    "characters": [
+      "纪念"
+    ],
+    "action": "纪念停住，抬眼，看见远处湖光和亭子",
+    "dialogue": "",
+    "balloon_note": "静默页核心格",
+    "transition": "翻页"
+  },
+  {
+    "page": 9,
+    "panel": 1,
+    "purpose": "纪霆舟第一次出场",
+    "focal_point": "逆光中的纪霆舟与点心盘",
+    "characters": [
+      "纪念",
+      "纪霆舟"
+    ],
+    "action": "纪念看见亭中人和满桌点心，视线在男人和吃的之间来回跳",
+    "dialogue": "",
+    "balloon_note": "先不给男方台词，让出场只靠画面和距离成立",
+    "transition": "顺切"
+  },
+  {
+    "page": 10,
+    "panel": 1,
+    "purpose": "用错位夸奖扭歪气氛",
+    "focal_point": "纪念仰头，纪霆舟垂眼",
+    "characters": [
+      "纪念",
+      "纪霆舟"
+    ],
+    "action": "纪念直愣愣地夸他好看，纪霆舟第一次真正看她",
+    "dialogue": "“哥哥，你真好看。”\n“哦？有多好看？”\n“好看到我爹见了都要下奶。”",
+    "balloon_note": "最后一句拆成最重气泡，做本话记忆点",
+    "transition": "收束"
+  }
+]

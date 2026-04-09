@@ -1,0 +1,4 @@
+interface:
+  display_name: "网文漫画改编"
+  short_description: "把长篇小说改编成条漫或页漫的规划、长稿、分页和分格生产包"
+  default_prompt: "Use $adapt-webnovel-to-comic to turn this novel into a comic adaptation package with source diagnosis, comic bibles, serialization planning, sample chapter drafts, a detailed longform adaptation, page-layout scripts, panel scripts, and visual-consistency outputs."
