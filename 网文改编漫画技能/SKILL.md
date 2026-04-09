@@ -17,6 +17,14 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 - 具体改编默认先落前 50 个源章节左右，必要时按自然段落微调。
 - 先做样章验证，不合格不扩写。
 - 每轮都必须经历评估、方法审计、理论复盘、仇人式差评、源场景采收和回修闭环。
+- 内部检查可以很多，但默认对用户只交真正可直接进入生产的成品包。
+
+## 交付原则
+
+- `原作诊断`、`评估复盘`、`技法审计`、`理论评议`、`仇人式负评` 这类文件默认属于内部工序，不算用户最终交付。
+- 内部工序文件只有在调试、复查、复盘、教学或用户明确点名时才外放。
+- 默认对用户交付的应是可以直接进入编辑、画师、出图、制作环节的成品。
+- 如果需要保留内部工序文件，统一收在 `内部工序/` 下，不要混在最终交付层。
 
 默认路线：
 
@@ -56,7 +64,7 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 
 ### 4. Diagnose the source and rebuild the adaptation engine
 
-- Create `原作漫画改编诊断.md`.
+- Internally create `内部工序/原作漫画改编诊断.md` when needed.
 - Extract:
   - one-line premise
   - protagonist action spine
@@ -71,12 +79,12 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 ### 5. Build the planning package
 
 - Read [输出合同.md](references/输出合同.md).
-- Create:
-  - `漫画总圣经.md`
-  - `人物设定圣经.md`
-  - `场景道具圣经.md`
-  - `连载规划.json`
-  - `连续性账本.md`
+- Internally create the planning package:
+  - `内部工序/漫画总圣经.md`
+  - `内部工序/人物设定圣经.md`
+  - `内部工序/场景道具圣经.md`
+  - `内部工序/连载规划.json`
+  - `内部工序/连续性账本.md`
 - Use `scripts/生成连载规划.py` to scaffold `连载规划.json`, then fill it.
 
 ### 6. Write sample chapters first
@@ -96,7 +104,7 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 ### 7. Run a dedicated dialogue and lettering pass
 
 - Read [对白字气打磨流程.md](references/对白字气打磨流程.md).
-- Create `对白打磨记录.md`.
+- Internally create `内部工序/对白打磨记录.md` when the run needs persistence.
 - Check:
   - key lines still map to actions
   - exposition has been moved into visuals where possible
@@ -106,8 +114,8 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 
 ### 8. Evaluate before expanding
 
-- Run `scripts/评估漫画改编包.py` on `连载规划.json`.
-- Create `评估复盘.md`.
+- Run `scripts/评估漫画改编包.py` on `内部工序/连载规划.json`.
+- Internally create `内部工序/评估复盘.md` when the run needs persistence.
 - If the plan or sample batch fails:
   - fix structure first
   - then rewrite the sample
@@ -116,7 +124,7 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 ### 9. Run a method-usage audit
 
 - Read [技法使用审计流程.md](references/技法使用审计流程.md).
-- Create `技法使用审计.md`.
+- Internally create `内部工序/技法使用审计.md` when the run needs persistence.
 - Audit:
   - which source-book methods were truly used
   - where they appear in the outputs
@@ -127,7 +135,7 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 ### 10. Run a theory-grounded review
 
 - Read [理论依据评议流程.md](references/理论依据评议流程.md).
-- Create `理论依据评议.md`.
+- Internally create `内部工序/理论依据评议.md` when the run needs persistence.
 - Every praise or criticism must name:
   - the concrete evidence
   - the reason
@@ -136,16 +144,16 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 ### 11. Run a hostile-audience pass
 
 - Read [仇人视角审读流程.md](references/仇人视角审读流程.md).
-- Create:
-  - `仇人式负评.md`
-  - `编辑导演修订建议.md`
+- Internally create:
+  - `内部工序/仇人式负评.md`
+  - `内部工序/编辑导演修订建议.md`
 - First attack the work as an impatient reader.
 - Then convert that anger into editor-side, visual-storytelling-side, and workflow-side fixes.
 
 ### 12. Go back to the novel and harvest source scenes
 
 - Read [源场景采收流程.md](references/源场景采收流程.md).
-- Create `源场景采收卡.md`.
+- Internally create `内部工序/源场景采收卡.md` when the run needs persistence.
 - Harvest:
   - vivid actions
   - recurring props
@@ -167,7 +175,7 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
 
 - Read [长稿自然化检查流程.md](references/长稿自然化检查流程.md).
 - Run `scripts/检查长稿自然化.py`.
-- Create `长稿自然化检查.md`.
+- Internally create `内部工序/长稿自然化检查.md` when the run needs persistence.
 - If the longform still sounds like planning notes, prompt scaffolding, or film blocking notes, the page stage is blocked.
 
 ### 15. Derive page layout and panel scripts only from validated longform
@@ -188,11 +196,22 @@ description: 将长篇网文、TXT/EPUB/DOCX/PDF 小说原文或 prose treatment
   - `角色定锚包/`
   - `场景定锚包/`
   - `出图提示包.json`
-  - `视觉一致性检查.md`
+- Internally create `内部工序/视觉一致性检查.md` when the run needs persistence.
 - Run `scripts/检查视觉定锚包.py` on the completed bundle.
 - If character, costume, prop, or space anchors are unstable, do not move on.
 
-### 17. Iterate
+### 17. Consolidate final user-facing package
+
+- Do not dump the entire internal process to the user.
+- Merge planning conclusions into:
+  - `漫画改编总案.md`
+  - `分话总表.md`
+  - `角色设定集.md`
+  - `场景设定集.md`
+- Keep these files readable, production-facing, and free of internal debugging noise.
+- The final package should let an editor,画师, 分镜师, or出图流程 directly continue work.
+
+### 18. Iterate
 
 - Re-run hostile review
 - Re-run theory review
@@ -264,29 +283,37 @@ Read in this order:
 
 ## Default Deliverable Order
 
-1. `原作漫画改编诊断.md`
-2. `漫画总圣经.md`
-3. `人物设定圣经.md`
-4. `场景道具圣经.md`
-5. `连载规划.json`
-6. `连续性账本.md`
-7. `样章长稿/第001话.md` to `第003话.md`
-8. `分页脚本/第001话.md` to `第002话.md`
-9. `分格脚本/第001话.json`
-10. `对白打磨记录.md`
-11. `评估复盘.md`
-12. `技法使用审计.md`
-13. `理论依据评议.md`
-14. `仇人式负评.md`
-15. `编辑导演修订建议.md`
-16. `源场景采收卡.md`
-17. `完整详细长稿总纲.md`
-18. `完整详细长稿/`
-19. `完整详细长稿.fountain`
-20. `长稿自然化检查.md`
-21. `页面叙事圣经.md`
-22. `页面设计总表.json`
-23. `角色定锚包/`
-24. `场景定锚包/`
-25. `出图提示包.json`
-26. `视觉一致性检查.md`
+1. `漫画改编总案.md`
+2. `分话总表.md`
+3. `角色设定集.md`
+4. `场景设定集.md`
+5. `完整详细长稿总纲.md`
+6. `完整详细长稿/`
+7. `完整详细长稿.fountain`
+8. `页面叙事圣经.md`
+9. `页面设计总表.json`
+10. `分页脚本/`
+11. `分格脚本/`
+12. `角色定锚包/`
+13. `场景定锚包/`
+14. `出图提示包.json`
+
+## Internal Working Artifacts
+
+这些文件默认只在内部流程中使用，不作为最终用户交付：
+
+- `内部工序/原作漫画改编诊断.md`
+- `内部工序/漫画总圣经.md`
+- `内部工序/人物设定圣经.md`
+- `内部工序/场景道具圣经.md`
+- `内部工序/连载规划.json`
+- `内部工序/连续性账本.md`
+- `内部工序/对白打磨记录.md`
+- `内部工序/评估复盘.md`
+- `内部工序/技法使用审计.md`
+- `内部工序/理论依据评议.md`
+- `内部工序/仇人式负评.md`
+- `内部工序/编辑导演修订建议.md`
+- `内部工序/源场景采收卡.md`
+- `内部工序/长稿自然化检查.md`
+- `内部工序/视觉一致性检查.md`
