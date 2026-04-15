@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Image Ad Director"
+  short_description: "Turn a product image into ad video concepts"
+  default_prompt: "Use $product-image-ad-director to analyze a product image, research the product, propose ad concepts, and then write detailed scripts after confirmation."
